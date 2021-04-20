@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <link href="./style.css" type = "text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name = "viewport" content="width=device-width, user-scalable=no">
+    <title>
+
+     Khanh Luong's Portfolio
+
+    </title>
+
+
+
+
+  </head>
+  <body>  
+      <header>
+          <nav class = "topnav" id = "portfolioTopnav">
+            <a href = "#about">About</a>
+            <a href = "#skills">Skills</a>
+            <a href = "#accomplishment">Accomplishments</a>
+            <a href = "#contact">Contact</a>
+            <a href = "javascript:void(0);" class="icon" onclick="openMenu()"><i class = "fa fa-bars"></i></a>
+          </nav>
+        <h1>Khanh Luong</h1>
+        <div id = "aboutsection">
+          <figure>
+            <img src="hinhsang.jpg" width="200" height="200"/>
+          </figure>
+      </header>
+      <main>
+      <h2 class = "heading uppercase" id = "about">About</h2>
+      <p>Dr. Khanh Luong finished her PhD in <strong>Computer Science </strong>specializing in Data Science from Queensland University of Technology in 2019. She is working as a Postdoctoral Researcher in Data Science at QUT Centre for Data Science.
+
+        Her research is concerned with dealing multiple aspect data, one of emerging, promising and challenging research topics in recent years. The multiple aspect data that is represented by multiple views and contain different types of multiple relationship has become commonly available along with the advancements in technology, yet very high-dimensional and extreme sparse. The practice of having more informative data requires the learning method to be able to exploit, as much as possible, all the available data in order to capture the true valuable hidden knowledge from data and return informative outcomes.
+        
+        Her research has contributed to the fields of machine learning and data mining by developing various innovative methods ready to be deployed on real-world datasets ranging from text, image, sound, video and bioinformatics data, in diverse problems such as clustering, classification, anomaly detection, community discovery or collaborative filtering with the novel multi-aspect outlook.
+        
+        Currently, she is working on the Applied Data Science project, one of core projects of QUT Centre for Data Science, which aims to produce effective solutions dealing with complex datasets, ranging from text data to sensor data, generated from real-world industry problems.</p>
+      <br>
+      <h3 id = "skills">Skills</h3>
+      <h4>Research Skills</h4> 
+      <ul class="list">
+
+        <li>Report writing</li>
+      
+        <li>Data Collection</li>
+      
+        <li>Planning and Scheduling</li>
+        <li>Analysis of information from different sources</li>
+      
+      </ul>
+      <h4>Interpersonal Skills</h4> 
+      <ul class="list">
+
+        <li>Active listening</li>
+      
+        <li>Team work</li>
+      
+        <li>Responsibility</li>
+        <li>Leadership</li>
+      
+      </ul>
+      <h4>Technical Skills</h4>
+    </div>
+    <div id = "accomplishementsection">
+      <h2 id = "accomplishment">Accomplishments</h2>
+    </div>
+    <table>
+        <tr>
+          <th Scope = "col">Publications</th>
+          <th scope = "col">Awards</th>
+          <th scope = "col">Presentations</th>
+        </tr>
+        <tr>
+          <td>
+            1. Khanh Luong and Richi Nayak, Learning the Diverse Manifold for Meaningful Multi-Aspect Data Representation. IEEE Transactions on Knowledge and Data Engineering (TKDE) Journal, 2020.
+            <br><br>
+            2. Khanh Luong and Richi Nayak, A Novel Approach to Learning Consensus and Complementary Information for Multi-View Data Clustering. 2020 IEEE 36th International Conference on Data Engineering (ICDE) 
+            <br><br>
+            3. Khanh Luong and Richi Nayak (2019). Clustering Multi-view Data Using Non-negative Matrix Factorization and Manifold Learning for Effective Understanding: A survey paper. In Linking and Mining Heterogeneous and Multi-view Data (pp. 201-227). Cham: Springer International Publishing.
+            <br><br>
+            4. Khanh Luong and Richi Nayak, Learning association relationship and accurate geometric structures for multi-type relational data. In 2018 IEEE 34th International Conference on Data Engineering (ICDE).  
+            <br><br>
+            5. T.M.G, Tennakoon, Khanh Luong, Wathsala Mohotti, and Richi Nayak, Discovering Communities with Multi-type Relational Data Clustering. The 16th Pacific Rim International Conference on Artificial Intelligence. 
+            <br><br>
+            6. Khanh Luong, Thirunavukarasu Balasubramaniam and Richi Nayak (2018), A novel technique of using Coupled Matrix Factorization and Greedy Coordinate Descent for Multi-view Data Representation. In Web Information Systems Engineering – WISE 2018 (pp. 285-300): Springer International Publishing. 
+
+
+          </td>
+           
+            
+          <td>35</td>
+          <td>33</td>
+        </tr>
+
+<!--comments-->
+    </table>.
+    <h3>Coding Examples</h3>
+
+    <a href="./quiz.html" target="_blank">Take the portfolia quiz</a>
+
+    <div id = "contactsection">
+      <h2 id = "contact" class = "contactform">Contact</h2>
+      <a href="https://www.linkedin.com/in/khanh-luong-709936b9/" target="_blank">Linkedin</a>
+    </div>
+    <form>
+      <label for = "name">Name*: </label>
+      <br>
+      <input type = "text" name = "name-text-field" id = "name" required>
+      <br>
+      <br>
+      <label for = "email">Email:*</label>
+      <br>
+      <input type = "text", name ="email" id = "email" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      <br>
+      <br>
+      <label for = "mobile" name ="mobile">Mobile (optional):</label> 
+      <br>
+      <input type = "number" name = "mobile" id = "mobile" pattern="[0-9]">
+      <br>
+      <br>
+      <label for = "message">Leave your message below*:</label>
+      <br>
+      <br>
+      <textarea id = "textarea" rows = "5" cols = "30" required></textarea>
+      <br>
+      <input type = "submit">
+    </form>
+
+
+  
+  </main>
+  <script src="./nav.js"></script>
+  </body>
+
+</html>
